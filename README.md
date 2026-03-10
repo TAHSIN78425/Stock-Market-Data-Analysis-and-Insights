@@ -177,7 +177,17 @@ The following KPI metrics were included to highlight overall stock performance:
 
 Total Profit = SUM(Volume) * SUM(Price Change)
 
+## Key Insights
+
+1. **NVIDIA** showed the strongest performance among all analyzed stocks, recording both the **highest average monthly return** and the **highest Compound Annual Growth Rate (CAGR)**.
+
+2. **Technology** stocks generated the highest overall profit, indicating strong long-term growth and high trading activity in the tech sector.
+
+3. **July** recorded the highest monthly return  on average compared to other months, suggesting stronger market performance during that period.
+
+4. **Higher risk** tends to correlate with **higher returns**, as observed in the risk (standard deviation) vs return scatter plot, where stocks with greater volatility often produced larger returns.
 Where:
 
 - **Volume** = Number of shares traded  
 - **Price Change** = Close - Open
+5. Stocks with higher trading **volume** generally showed stronger price movements, indicating increased investor interest and market activity.
