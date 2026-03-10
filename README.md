@@ -136,3 +136,48 @@ To understand stock performance and uncover meaningful insights, several **busin
 7. **Which stock has the maximum Compound Annual Growth Rate (CAGR)?**
 
 All these questions were analyzed using **SQL queries to extract insights from the dataset.**
+
+## Dashboard
+<img src='https://github.com/TAHSIN78425/images/blob/main/Stock%20Market%20Data%20Analysis%20and%20Insights.png'/>
+
+The dashboard was created to visualize stock performance, risk, and profitability across different companies and sectors.
+
+### Key Performance Indicators (KPIs)
+
+The following KPI metrics were included to highlight overall stock performance:
+
+- **Highest Average Monthly Return**
+- **Top Performing Stock**
+- **Total Profit**
+- **Highest Compound Annual Growth Rate (CAGR)**
+
+---
+
+### Visualizations
+
+**1. Risk vs Return Analysis (Scatter Plot)**  
+- X-axis: Risk (Standard Deviation of Monthly Returns)  
+- Y-axis: Average Monthly Return  
+- Helps identify high-return and high-risk stocks.
+
+**2. Trading Volume by Stock (Bar Chart)**  
+- Compares the total trading volume across different stocks.
+
+**3. Profit by Stock Category (Bar Chart)**  
+- Shows which stock sector (Technology, Finance, Healthcare, Consumer, etc.) generates the highest profit.
+
+**4. Price Fluctuation Analysis (Bar Chart)**  
+- Compares stock prices between **2015 and the current year** to visualize long-term price growth.
+
+---
+
+### Calculated Fields Used
+
+**Total Profit**
+
+Total Profit = SUM(Volume) * SUM(Price Change)
+
+Where:
+
+- **Volume** = Number of shares traded  
+- **Price Change** = Close - Open
